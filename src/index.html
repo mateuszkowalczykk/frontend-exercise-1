@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
     <title>Frontend Exercise 1</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
-<!--    <script type="text/javascript" src="skrypt.js"> </script>-->
+    <script type="text/javascript" src="script.js"> </script>
 </head>
 <body>
     <?xml version="1.0" encoding="UTF-8"?>
@@ -21,45 +21,45 @@
             <path d="M84.968254,648 C101.330611,697.053571 149.663945,730.553571 229.968254,748.5 C310.272563,766.446429 358.605897,799.946429 374.968254,849" id="Path-8" stroke="#000360" stroke-width="3"></path>
             <path d="M144,458 C152.902081,522.723958 191.402081,587.890625 259.5,653.5 C327.597919,719.109375 366.097919,784.276042 375,849" id="Path-9" stroke="#000360" stroke-width="3"></path>
             <path d="M536.750031,412 C537.581984,476.0759 510.793105,537.367204 456.383393,595.873913 C401.973681,654.380622 374.768825,720.089317 374.768825,793" id="Path-10" stroke="#000360" stroke-width="3"></path>
-            <rect id="Rectangle" fill="#000360" x="84" y="67" width="120" height="60" rx="8"></rect>
+            <rect id="Rectangle" class="DarkBlueRectangle" fill="#000360" x="84" y="67" width="120" height="60" rx="8"></rect>
             <text id="UI-Fundamentals" fill="#FFFFFF" fill-rule="nonzero" font-family="Courier" font-size="14" font-weight="normal">
                 <tspan x="134.598633" y="90">UI </tspan>
                 <tspan x="92.5917969" y="107">Fundamentals</tspan>
             </text>
-            <rect id="Rectangle" fill="#000360" x="314" y="67" width="120" height="60" rx="8"></rect>
+            <rect id="Rectangle" class="DarkBlueRectangle" fill="#000360" x="314" y="67" width="120" height="60" rx="8"></rect>
             <text id="Java-Fundamentals" fill="#FFFFFF" fill-rule="nonzero" font-family="Courier" font-size="14" font-weight="normal">
                 <tspan x="356.697266" y="89">Java </tspan>
                 <tspan x="323.091797" y="106">Fundamentals</tspan>
             </text>
-            <rect id="Rectangle" fill="#76BDF9" x="477" y="237" width="120" height="60"></rect>
+            <rect id="Rectangle" class="LightBlueRectangle" fill="#76BDF9" x="477" y="237" width="120" height="60"></rect>
             <text id="Spring-Boot" font-family="Courier" font-size="14" font-weight="normal" fill="#000000">
                 <tspan x="492.29248" y="273">Spring Boot</tspan>
             </text>
-            <rect id="Rectangle" fill="#76BDF9" x="477" y="352" width="120" height="60"></rect>
+            <rect id="Rectangle" class="LightBlueRectangle" fill="#76BDF9" x="477" y="352" width="120" height="60"></rect>
             <text id="Web" font-family="Courier" font-size="14" font-weight="normal" fill="#000000">
                 <tspan x="524.897949" y="387">Web</tspan>
             </text>
-            <rect id="Rectangle" fill="#76BDF9" x="478" y="648" width="120" height="60"></rect>
+            <rect id="Rectangle" class="LightBlueRectangle" fill="#76BDF9" x="478" y="648" width="120" height="60"></rect>
             <text id="Security" font-family="Courier" font-size="14" font-weight="normal" fill="#000000">
                 <tspan x="503.894531" y="683">Security</tspan>
             </text>
-            <rect id="Rectangle" fill="#76BDF9" x="314" y="872" width="120" height="60"></rect>
+            <rect id="Rectangle" class="LightBlueRectangle" fill="#76BDF9" x="314" y="872" width="120" height="60"></rect>
             <text id="Tests" font-family="Courier" font-size="14" font-weight="normal" fill="#000000">
                 <tspan x="353.496582" y="908">Tests</tspan>
             </text>
-            <rect id="Rectangle" fill="#76BDF9" x="84" y="398" width="120" height="60"></rect>
+            <rect id="Rectangle" class="LightBlueRectangle" fill="#76BDF9" x="84" y="398" width="120" height="60"></rect>
             <text id="React" font-family="Courier" font-size="14" font-weight="normal" fill="#000000">
                 <tspan x="122.496582" y="434">React</tspan>
             </text>
-            <rect id="Rectangle" fill="#76BDF9" x="25" y="588" width="120" height="60"></rect>
+            <rect id="Rectangle" class="LightBlueRectangle" fill="#76BDF9" x="25" y="588" width="120" height="60"></rect>
             <text id="Redux" font-family="Courier" font-size="14" font-weight="normal" fill="#000000">
                 <tspan x="62.496582" y="623">Redux</tspan>
             </text>
         </g>
     </svg>
     <div id="button-div">
-        <button id="button-1" class="btn">Button 1</button>
-        <button id="button-2" class="btn">Button 2</button>
+        <button id="button-1" class="btn" onClick="changeLightBlueRectangle()">Button 1</button>
+        <button id="button-2" class="btn" onClick="changeDarkBlueRectangle()">Button 2</button>
     </div>
 </body>
 </html>
