@@ -1,25 +1,29 @@
 body{
 padding-bottom:50px;
 }
+
 header{
     border-bottom: 1px solid black;
 }
+
 .button{
     width: 80%;
     height: 35px;
     border-radius:8px;
     font-size:17px;
-    border: 1px solid black;
+    border: 0px;
     margin-top:15px;
     display: block;
     margin-left:auto;
     margin-right:auto;
-    background-color: purple;
+    background-color: #D092CB;
     color:white;
 }
+
 #description h3{
     margin: 15px;
 }
+
 #description p{
     margin: 10px;
 }
@@ -27,19 +31,27 @@ header{
 .narrow-screen{
         display:none;
 }
+
 .card{
     border-radius:8px !important;
     margin-top:20px;
 }
+
 .card-header{
-    background-color: purple;
+    background-color: #8C037F;
     border-radius:8px !important;
 }
+
 .card-header h5{
     text-align: center;
     color: white;
     font-size:30px;
+    text-decoration: none;
 }
+.card-header a{
+    text-decoration: none;
+}
+
 
 @media (max-width: 767.98px) {
     #svg-image {
