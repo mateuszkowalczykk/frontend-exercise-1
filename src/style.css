@@ -1,28 +1,11 @@
-body {
-
+body{
+padding-bottom:50px;
 }
-
-svg{
-    border: 1px solid black;
+header{
+    border-bottom: 1px solid black;
 }
-#buttons{
-    border: 2px solid black;
-    padding-bottom:15px;
-}
-
-#description{
-    border: 2px solid black;
-}
-
-#description h3{
-    margin: 15px;
-}
-#description p{
-    margin: 10px;
-}
-
-.btn{
-    width: 160px;
+.button{
+    width: 80%;
     height: 35px;
     border-radius:8px;
     font-size:17px;
@@ -31,14 +14,41 @@ svg{
     display: block;
     margin-left:auto;
     margin-right:auto;
-    background-color: blue;
-}
-
-#button-1 {
-    background-color: red;
-}
-
-#button-2 {
     background-color: purple;
+    color:white;
+}
+#description h3{
+    margin: 15px;
+}
+#description p{
+    margin: 10px;
 }
 
+.narrow-screen{
+        display:none;
+}
+.card{
+    border-radius:8px !important;
+    margin-top:20px;
+}
+.card-header{
+    background-color: purple;
+    border-radius:8px !important;
+}
+.card-header h5{
+    text-align: center;
+    color: white;
+    font-size:30px;
+}
+
+@media (max-width: 767.98px) {
+    #svg-image {
+        display:none;
+    }
+    .wide-screen {
+        display:none;
+    }
+    .narrow-screen{
+        display:block;
+    }
+}
