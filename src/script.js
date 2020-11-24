@@ -22,9 +22,9 @@ var activeButton ="#8C037F";
 var inactiveButton = "#D092CB";
 //CONTENT-END
 
-var buttons = document.getElementsByClassName("button");
-var description = document.getElementById("description");
-var mobileButtons = document.getElementsByClassName("card-header");
+const buttons = document.getElementsByClassName("button");
+const description = document.getElementById("description");
+const mobileButtons = document.getElementsByClassName("card-header");
 
 
 function changeSprint(sprintNumber){
@@ -63,7 +63,7 @@ function loadSprintsNames(){
           buttons[i].innerText = sprintsNames[i];
     }
     for (var i=0; i<mobileButtons.length; i++) {
-              mobileButtons[i].querySelector("a h5").innerText = sprintsNames[i];
-        }
+          mobileButtons[i].querySelector("a h5").innerText = sprintsNames[i];
+    }
 }
 
